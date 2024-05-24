@@ -1,0 +1,56 @@
+.ant-layout {
+  height: 100%;
+}
+.ant-layout-sider {
+}
+.sider {
+  padding: 0;
+}
+.logo,
+.logo1 {
+  width: 155px;
+  height: 22px;
+  background: url("~@/assets/s-logo.png") no-repeat center;
+  margin: 16px auto;
+}
+.logo1 {
+  width: 36px;
+  height: 36px;
+  background: url("~@/assets/s-logo1.png") no-repeat center;
+}
+
+.ant-layout-header svg {
+  font-size: 15px;
+  margin-left: 15px;
+}
+
+.user-name {
+  position: absolute;
+  right: 5%;
+  margin-right: 10px;
+  margin-left: 22px;
+}
+.user-logout {
+  position: absolute;
+  right: 2%;
+  display: inline-block;
+  cursor: pointer;
+}
+
+#components-layout-demo-custom-trigger .trigger {
+  padding: 0 24px;
+  font-size: 18px;
+  line-height: 64px;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+#components-layout-demo-custom-trigger .trigger:hover {
+  color: #1890ff;
+}
+
+#components-layout-demo-custom-trigger .logo {
+  height: 32px;
+  margin: 16px;
+  background: rgba(255, 255, 255, 0.3);
+}

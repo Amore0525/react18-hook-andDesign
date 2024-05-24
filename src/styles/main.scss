@@ -1,0 +1,13 @@
+@import "@/assets/iconfont/iconfont.css";
+@import "./normalize.scss";
+/** ellipse */
+@for $i from 1 through 5 {
+  .ellipse-#{$i} {
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: #{$i};
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: block;
+  }
+}

@@ -1,0 +1,60 @@
+#render-content {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+#render-content-header {
+  background-color: #fff;
+}
+#render-content-main {
+  flex: 1;
+  height: 0;
+  padding: 16px 24px 16px;
+  background-color: #f0f2f5;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+}
+#render-control {
+  padding: 12px;
+  background-color: #fff;
+}
+#render-body {
+  flex: 1;
+  height: 0;
+  overflow-y: hidden;
+  border-bottom: none;
+  border-radius: 2px 2px 0 0;
+  background-color: #fff;
+  > div {
+    padding: 0 12px;
+    height: 100%;
+  }
+}
+#render-footer {
+  padding: 12px;
+  border-radius: 0 0 2px 2px;
+  background-color: #fff;
+}
+#render-tabs {
+  padding: 0 24px;
+  border-bottom: 1px solid #e9e9e9;
+}
+.block {
+  height: 12px;
+  background-color: #fff;
+  border-radius: 2px 2px 0 0;
+}
+#render-tabs-checked {
+  padding: 16px 16px 0;
+  background-color: #fff;
+  position: relative;
+  &:after {
+    content: "";
+    position: absolute;
+    border-bottom: 1px solid #e9e9e9;
+    left: 16px;
+    right: 16px;
+    bottom: 0;
+  }
+}

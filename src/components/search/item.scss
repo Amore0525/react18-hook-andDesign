@@ -1,0 +1,16 @@
+.search-item {
+  display: flex;
+  align-items: center;
+  label {
+    width: 70px;
+  }
+  > div {
+    flex: 1;
+    width: 0;
+  }
+}
+.search-item-button {
+  label {
+    display: none;
+  }
+}

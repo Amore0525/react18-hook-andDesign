@@ -1,0 +1,48 @@
+.tabs-menu-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.tabs-menu-header {
+  .title {
+    padding: 16px 0;
+    font-size: 20px;
+    line-height: 28px;
+  }
+}
+.tabs-menu-warp {
+  display: flex;
+  li {
+    position: relative;
+    color: #555555;
+    font-size: 14px;
+    line-height: 22px;
+    cursor: pointer;
+    padding: 14px 0 12px;
+    white-space: nowrap;
+    span {
+      margin-left: 2px;
+      font-size: 12px;
+      font-weight: normal;
+    }
+    + li {
+      margin-left: 40px;
+    }
+    &::after {
+      display: none;
+      content: "";
+      position: absolute;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      border-bottom: 2px solid #2e74ff;
+    }
+  }
+  .current {
+    color: #2e74ff;
+    font-weight: bold;
+    &::after {
+      display: block;
+    }
+  }
+}
